@@ -21,8 +21,6 @@ async function displayUser(username)
     handleError(err);
   }
 }
-
-
 function handleError(err) {
   console.log('OH NO!');
   console.log(err);
